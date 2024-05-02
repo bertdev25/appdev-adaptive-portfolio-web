@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuIcon = document.getElementById('menu-icon');
     const navbar = document.querySelector('.navbar');
 
+
     checkViewportWidth();
 
     menuIcon.addEventListener('click', () => {
@@ -24,7 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const viewportWidth = window.innerWidth;
 
-        const mobileBreakpoint = 768; // Adjust this value as needed
+
+        const mobileBreakpoint = 768;
 
         if (viewportWidth < mobileBreakpoint) {
             navbar.style.display = 'none';
